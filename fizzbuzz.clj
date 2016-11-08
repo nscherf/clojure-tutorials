@@ -1,3 +1,5 @@
+;;collection of FizzBuzz solutions from: http://eddmann.com/
+
 (def fizz? #(zero? (mod % 3)))
 (def buzz? #(zero? (mod % 5)))
 (def fizzbuzz? #(and (fizz? %) (buzz? %)))
